@@ -1,0 +1,13 @@
+env:
+  browser: true
+  es2021: true
+extends:
+  - plugin:react/recommended
+  - bayathy
+parser: '@typescript-eslint/parser'
+parserOptions:
+  project: ./tsconfig.json
+
+rules:
+  'import/export': off
+  'unicorn/prefer-export-from': off
